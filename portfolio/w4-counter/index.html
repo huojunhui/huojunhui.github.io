@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>科学计算器</title>
+	<link rel="stylesheet" href="计算器1.css">
+</head>
+<body>
+	<div class="counter">
+		<div class="top">
+			<div class="t"></div>
+			<div class="b">
+				<div class="box">
+					<form action="">
+						<input type="text" class="txt">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="center">
+			<img src="images/bg2.gif" alt="zzz">
+		</div>
+		<div class="bottom">
+			<div class="left">
+				<form action="">
+					<input type="button" value="%" class="blue">
+					<input type="button" value="√" class="blue">
+					<input type="button" value="x!" class="blue">
+					<input type="button" value="sin" class="blue">
+					<input type="button" value="cos" class="blue">
+					<input type="button" value="tan" class="blue">
+					<input type="button" value="ln" class="blue">
+					<input type="button" value="log" class="blue">
+					<input type="button" value="1/x" class="blue">
+					<button class="blue bt10">
+						e<span>x</span>
+					</button>
+					<button class="blue bt11">
+						x<span>2</span>
+					</button>
+					<button class="blue bt12">
+						x<span>y</span>
+					</button>
+					<input type="button" value="abs" class="blue">
+					<input type="button" value="∏" class="blue">
+					<input type="button" value="e" class="blue">
+				</form>
+			</div>
+			<div class="center">
+				<form action="">
+					<input type="button" value="C" class="black">
+					<input type="button" value="÷" class="black">
+					<input type="button" value="x" class="black">
+					<input type="button" value="7" class="gray">
+					<input type="button" value="8" class="gray">
+					<input type="button" value="9" class="gray">
+					<input type="button" value="4" class="gray">
+					<input type="button" value="5" class="gray">
+					<input type="button" value="6" class="gray">
+					<input type="button" value="1" class="gray">
+					<input type="button" value="2" class="gray">
+					<input type="button" value="3" class="gray">
+					<input type="button" value="0" class="gray">
+					<input type="button" value="." class="gray" >
+					<input type="button" value="+/-" class="gray">
+				</form>
+			</div>
+			<div class="right">
+				<form action="">
+					<input type="button" value="x" class="blue">
+					<input type="button" value="-" class="black">
+					<input type="button" value="+" class="black">
+					<input type="button" value="()" class="black">
+					<input type="button" value="=" class="orange">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="script/jquery.min.js"></script>
+	<script type="text/javascript">
+		var x1=0;
+		var x2=0;
+		var op="";
+		var str1="";
+		var str2="";
+		var str3="";
+		var str4="";
+		$(".bottom input").click(function(){
+
+			str1+=$(this).val();
+			$(".txt").val(str1);
+			return false;
+		});
+		$(".blue").click(function(){
+			op=$(this).val();
+			if(op=="∏"){
+				x1=Math.PI;
+			}else if(op=="e"){
+				x1=Math.E;
+			}else if(op=="x!"){
+				str1=str1.replace("x!","!");
+				$(".txt").val(str1);
+			}else if(op=="1/x"){
+				str1="1/"+str1;
+				$(".txt").val(str1);
+			}
+			return false;
+		});
+		$(".bt10").click(function(){
+			str1="e^"+str1;	
+			$(".txt").val(str1);
+			op="ex";
+			return false;
+		});
+		$(".bt11").click(function(){
+			str1+="^2";
+			$(".txt").val(str1);
+			op="x2";
+			return false;
+		});
+		$(".bt12").click(function(){
+			str1+="^";
+			op="xy";
+			$(".txt").val(str1);
+			return false;
+		});
+		$(".black").click(function(){
+			var value=$(this).val();
+			if(value!="C"){
+				op=value;
+			}else{
+				x1=0;
+				x2=0;
+				op="";
+				$(".txt").val("");
+				str1="";
+			}	
+		});
+		$(".gray").click(function(){
+			if(x1!=0 &&(op=="xy"||op=="%"||op=="x"||op=="÷"||op=="+"||op=="-")){
+				str2+=$(this).val();
+				x2=parseFloat(str2);
+			}else{
+				str3+=$(this).val();
+				x1=parseFloat(str3);
+			};
+			console.log(x1);
+		});
+		$(".orange").click(function(){
+			var s=0;
+			if(x1 && (op=="%"||op=="x"||op=="÷"||op=="+"||op=="-"||op=="xy") && x2){
+				s=math1(x1,x2,op);				
+			}else if(x2===0){
+				s=math(x1,op);
+			}				
+			$(".txt").val(s);
+			x1=s;
+			x2=0;
+			op="";
+			str1="";
+			str2="";
+			str3="";
+			str4="";
+		});
+
+
+
+
+
+
+		function math(x,op){
+			var resu=0;
+			switch(op){
+				case "√":if(x>0){resu=Math.sqrt(x)};break;
+				case "x!":
+					var s=1;
+					if(x===0){
+						resu=1;
+					}else{
+						for(var i=2;i<=x;i++){
+							s*=i;
+						}
+					resu=s;
+					}
+					break;
+				case "sin":resu=Math.sin(x*2*Math.PI/360);break;
+				case "cos":resu=Math.cos(x*2*Math.PI/360);break;
+				case "tan":resu=Math.tan(x*2*Math.PI/360);break;
+				case "ln":
+					if(x>0){resu=Math.log(x);}break;
+				case "log":
+					if(x>0){resu=Math.log(x)/Math.log(10);}break;
+				case "1/x":resu=1/x;break;
+				case "abs":resu=Math.abs(x);break;
+				case "x2":resu=Math.pow(x,2);break;	
+				case "ex":resu=Math.pow(Math.E,x);break;
+			}
+			return(resu);
+		}
+		function math1(x1,x2,op){
+			var resu=0;
+			switch(op){
+				case "%":resu=x1%x2;break;
+				case "÷":resu=x1/x2;break;
+				case "x":resu=x1*x2;break;
+				case "+":resu=x1+x2;break;
+				case "-":resu=x1-x2;break;
+				case "xy":resu=Math.pow(x1,x2);break;		
+			}
+			return(resu);
+		}
+	</script>
+</html>

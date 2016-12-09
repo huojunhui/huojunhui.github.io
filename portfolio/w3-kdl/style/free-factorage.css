@@ -1,0 +1,71 @@
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ .clear{
+ 	clear: both;
+ }
+ .free-agency-1{
+      width: 72%;
+      height: 965px;
+      border: 1px solid red;
+      margin: 0 auto;
+      margin-top: 146px;
+      box-sizing: border-box;
+   }
+   .navigation-bar {
+    height: 60px;
+    width: 72%;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+.logodirect8 .btn8 {
+    height: 27px;
+    width: 52%;
+    margin-top: -12px;
+    margin-right: 5.1%;
+    background-color: #1996c8;
+    color: #fff;
+    float: right;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 27px;
+    font-family: 微软雅黑;
+}
+.free-agency-1 .free-agency-nav-top{
+	width: 100%;
+	height: 86px;
+	
+}
+.free-agency-1 .free-agency-nav-top span{
+	color: #1996c8;
+	float: right;
+}
+.free-agency-1 .nav>li{
+	font-family: 微软雅黑;
+	font-size: 20px;
+	width: 16.5%; 
+}
+.free-agency-1 .nav>li>a{
+	height: 80px;
+	line-height:50px;
+}
+.free-agency-1 .annotation{
+	margin-top: 12px;
+}
+ .tab-content .tab-pane .table{
+ 	margin-bottom: 0px;
+ 	
+ }
+ .tab-content .tab-pane .table thead th{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 微软雅黑;
+	background-color: #f3f3f3;
+}
+  .tab-content  .tab-pane .table .table-hover tr,td{
+	font-size: 16px;
+	text-align: center;
+}

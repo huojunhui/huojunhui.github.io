@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>行程点评</title>
+	<link rel="stylesheet" href="../style/p-css-evaluate.css">
+	<link rel="stylesheet" href="../style/bootstrap.css">
+</head>
+<body>
+	<button class="btn  btn-lg load" data-toggle="modal" data-target=".evalute">行程点评</button>
+		<div class="clear"></div>
+	<div class="modal fade evalute" style="display:none;">
+		<div class="modal-dialog">
+			<div class="modal-content modal-content5">
+				<div class="modal-body modal-body5">
+					<div class="content5">
+						<div class="header5">
+							<p>行程点评</p>	
+							<input src="../images/p-image-bbyz/unload.jpg" type="image" class="pic5" data-dismiss="modal">
+							<div class="clear"></div>
+							<span class="unload5">关闭</span>
+						</div>
+						<div class="clear"></div>
+						<div class="container5">
+							<div class="left5">
+								<textarea name="" id="" cols="30" rows="10"></textarea>
+							</div>
+							<div class="right5">
+								<div class="xc5">
+									<label for="">行程安排:</label>
+									<input type="radio" name="ap"><span>满意</span>
+									<input type="radio" name="ap"><span>不满意</span>
+									<input type="radio" name="ap"><span>一般</span>
+								</div>
+								<div class="zs5">
+									<label for="">住宿餐食:</label>
+										<input type="radio" name="cs"><span>满意</span>
+										<input type="radio" name="cs"><span>不满意</span>
+										<input type="radio" name="cs"><span>一般</span>
+								</div>
+								<div class="lx5">
+									<label for="">旅行交通:</label>
+									<input type="radio" name="jt name="ap""><span>满意</span>
+									<input type="radio" name="jt name="ap""><span>不满意</span>
+									<input type="radio" name="jt name="ap""><span>一般</span>
+								</div>
+								<div class="star5">
+									<label for="">综合评价:</label>
+										<ul class="list5">
+											<li><img src="../images/p-image-bbyz/star0.png" alt=""></li>
+											<li><img src="../images/p-image-bbyz/star0.png" alt=""></li>
+											<li><img src="../images/p-image-bbyz/star0.png" alt=""></li>
+											<li><img src="../images/p-image-bbyz/star0.png" alt=""></li>
+											<li><img src="../images/p-image-bbyz/star0.png" alt=""></li>
+										</ul>	    
+								</div>
+							</div>		
+						</div>
+						<div class="clear"></div>
+						<div class="footer5">
+							<div class="boxadd5">
+									<input type="button" class="btn5" value="晒图片">
+									<input src="../images/p-image-bbyz/add.jpg" type="image" class="pic55">
+									<span>&nbsp 0/5</span>
+							</div>
+							<button class="btn5">提交评论</button>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+<script src="../script/jquery.min.js"></script>
+<script src="../script/bootstraps/modal.js"></script>
+<script src="../script/pikaday.js"></script> 
+
+<script>
+	    var num=document.querySelectorAll(".star5 .list5 li img");
+	    console.log(num)
+	    for(var i=0;i<num.length;i++){
+	    	num[i].onclick=(function(){
+            var src= "../images/p-image-bbyz/star.png";
+            return function(){
+            	$(this).attr("src",src);
+            }   
+           })()
+	    }
+    </script>
+</body>
+</html>

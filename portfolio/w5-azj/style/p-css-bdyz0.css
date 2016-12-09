@@ -1,0 +1,283 @@
+.clear{
+	clear:both;
+}
+.active{
+	background-color: #50bbdb;
+}
+@font-face{
+  font-family:yahei;
+  src:url(../fonts/Microsoft yahei.ttf);
+}
+.mid .formbox img{
+	margin-top:29px;
+	margin-left:11px;
+	float:left;
+}
+.mid .formbox p{
+	margin-top:37px;
+	margin-left:13px;
+	float:left;
+	font-size:24px;
+	font-family:yahei;
+	color:#333;
+}
+.container .content .mid .formbox p span{
+	color:#999;
+	margin-left:5px;
+	font-size:16px;
+	font-family:yahei;
+}
+.container .content .mid .formbox form{
+	margin-top:17px;
+	margin-left:259px;
+}
+.container .content .mid .formbox form .tour .lab0{
+	margin-top:13px;
+	color:#696969;
+	font-size:16px;
+	font-family:yahei;
+	float:left;
+}
+.container .content .mid .formbox form .tour .selector ul{
+	margin-left:19px;
+}
+.container .content .mid .formbox form .tour .selector ul .li0{
+	border:1px solid #ccc;
+	list-style:none;
+	width: 104px;
+	height: 37px;
+	margin-left:25px;
+	float:left;
+	line-height:37px;
+	text-align:center;
+	color:#333333;
+	font-size:16px;
+	display:block;
+}
+.container .content .mid .formbox form .tour .selector ul .li1{
+	border:1px solid #ccc;
+	list-style:none;
+	width: 104px;
+	height: 37px;
+	float:left;
+	line-height:37px;
+	text-align:center;
+	color:#333333;
+	font-size:16px;
+	display:block;
+	
+}
+.container .content .mid .formbox form .tour .selector ul li:hover{
+	background-color: #50bbdb;
+	color:#fff;
+	cursor:pointer;
+}
+.container .content .mid .formbox form .origin label{
+	margin-top:34px;
+	color:#333333;
+	font-size:16px;
+}
+.container .content .mid .formbox form .origin input{
+	width: 212px;
+	height: 37px;
+	margin-top:24px;
+	margin-left:30px;
+}
+.container .content .mid .formbox form .bourn label{
+	margin-top:34px;
+	color:#333333;
+	font-size:16px;
+}
+.container .content .mid .formbox form .bourn input{
+	width: 212px;
+	height: 37px;
+	margin-top:22px;
+	margin-left:30px;
+}
+.container .content .mid .formbox form .bourndate label{
+	margin-top:34px;
+	color:#333333;
+	font-size:16px;
+}
+.container .content .mid .formbox form .bourndate input{
+	width: 190px;
+	height: 37px;
+	margin-top:21px;
+	margin-left:19px;
+}
+.container .content .mid .formbox form .bourndate span{
+	margin-top:16px;
+}
+.container .content .mid .formbox form .bournday label{
+	margin-top:34px;
+	color:#333333;
+	font-size:16px;
+}
+.container .content .mid .formbox form .bournday .bournday{
+	width: 190px;
+	height: 37px;
+	margin-top:21px;
+	margin-left:19px;
+}
+.container .content .mid .formbox form .bournday .check{
+	width: 17px;
+	height: 17px;
+	line-height:17px;
+	border-radius:17px;
+    color: #fff;
+	border:none;
+	outline:none;
+}
+.container .content .mid .formbox form .bournperson label{
+	margin-top:34px;
+	color:#333333;
+	font-size:16px;
+}
+.container .content .mid .formbox form .bournperson input{
+	width: 190px;
+	height: 37px;
+	margin-top:21px;
+	margin-left:19px;
+}
+.container .content .mid .formbox form .capita label{
+	margin-top:34px;
+	color:#333333;
+	font-size:16px;
+}
+
+.container .content .mid .formbox form .capita select{
+	width: 190px;
+	height: 37px;
+	margin-top:21px;
+	margin-left:19px;
+	color:#333;
+}
+.container .content .botton .formbox img{
+	margin-top:27px;
+	margin-left:8px;
+	float:left;
+}
+.container .content .botton .formbox p{
+	margin-top:37px;
+	margin-left:5px;
+	float:left;
+	font-size:24px;
+	font-family:yahei;
+	color:#333;
+}
+.container .content .botton .formbox form{
+	margin-top:17px;
+	margin-left:258px;
+}
+.container .content .botton .formbox form .lxgj label{
+	margin-top:13px;
+	color:#696969;
+	font-size:16px;
+	font-family:yahei;
+	float:left;
+}
+.container .content .botton .formbox form .lxgj ul li{
+	border:1px solid #ccc;
+	list-style:none;
+	width: 89px;
+	height: 37px;
+	margin-left:18px;
+	float:left;
+	line-height:37px;
+	text-align:center;
+	color:#333333;
+	font-size:16px;
+	text-decoration:none;
+}
+.container .content .botton .formbox form .lxgj ul li:hover{
+	background-color: #50bbdb;
+	color:#fff;
+	cursor:pointer;
+}
+.container .content .botton .formbox form .xcap label{
+	margin-top:38px;
+	color:#696969;
+	font-size:16px;
+	font-family:yahei;
+	float:left;
+}
+.container .content .botton .formbox form .xcap ul li{
+	border:1px solid #ccc;
+	list-style:none;
+	width: 89px;
+	height: 37px;
+	margin-left:18px;
+	margin-top:29px;
+	float:left;
+	line-height:37px;
+	text-align:center;
+	color:#333333;
+	font-size:16px;
+	text-decoration:none;
+}
+.container .content .botton .formbox form .xcap ul li:hover{
+	background-color: #50bbdb;
+	color:#fff;
+	cursor:pointer;
+}
+.container .content .botton .formbox form .zsap label{
+	margin-top:34px;
+	color:#696969;
+	font-size:16px;
+	font-family:yahei;
+	float:left;
+}
+.container .content .botton .formbox form .zsap ul li{
+	border:1px solid #ccc;
+	list-style:none;
+	width: 89px;
+	height: 37px;
+	margin-left:18px;
+	margin-top:27px;
+	float:left;
+	line-height:37px;
+	text-align:center;
+	color:#333333;
+	font-size:16px;
+	text-decoration:none;
+}
+.container .content .botton .formbox form .zsap ul li:hover{
+	background-color: #50bbdb;
+	color:#fff;
+	cursor:pointer;
+}
+.container .content .botton .formbox form .wdyq label{
+	margin-top:32px;
+	color:#696969;
+	font-size:16px;
+	font-family:yahei;
+	float:left;
+}
+.container .content .botton .formbox form .wdyq textarea{
+	border:1px solid #cccccc;
+	width: 515px;
+	height: 200px;
+	float:left;
+    margin-left:19px;
+	margin-top:27px;
+	
+}
+.container .content .botton .formbox form .sub .btn{
+	width: 212px;
+	height: 43px;
+	background-color: #50bbdb;
+	margin-top:47px;
+	margin-left:242px;
+	border:none;
+}
+/*.phonenum .info{
+	
+}*/
+.green{
+	color:green;
+	font-size:12px;
+}
+.red{
+	color:red;
+	font-size:12px;
+}

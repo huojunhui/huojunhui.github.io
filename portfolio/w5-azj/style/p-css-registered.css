@@ -1,0 +1,156 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.clear{
+	clear:both;
+}
+@font-face{
+	font-family:yahei;
+	src:url(../fonts/Microsoft yahei.ttf);
+}
+.modal-content888{
+	width: 500px;
+}
+.modal-content888 .modal-body888{
+	width: 500px;
+	height: 668px;
+}
+.modal-content888 .modal-body888 .content888{
+	width: 355px;
+	height: 618px;
+	margin:0 auto;
+}
+.modal-content888 .modal-body888 .content888 .header888{
+	height: 71px;
+}
+.modal-content888 .modal-body888 .content888 .header888 .logol888{
+	margin-left:97px;
+	margin-top:10px;
+	float:left;
+}
+.modal-content888 .modal-body888 .content888 .container888{
+	width: 355px;
+}
+.modal-content888 .modal-body888 .content888 .header888 .close888{
+	margin-right:-43px;
+	float:right;
+}
+.modal-content888 .modal-body888 .content888 .banner888{
+	height: 45px;
+}
+.modal-content888 .modal-body888 .content888 .banner888 .phone-creat888{
+ 	display:block;
+ 	color:#7fcde5;
+ 	font-family: yahei;
+ 	font-size:16px;
+ 	text-align: right;
+    line-height: 45px
+}
+.modal-content888  .modal-body888  .content888 .container888 .message888 .email888{
+	width: 355px;
+	height:55px ;
+	outline-color:#e5e5e5;
+	color:#333;
+}
+.modal-content888  .modal-body888  .content888 .container888 .message888 .username888{
+	width: 355px;
+	height:55px ;
+	margin-top:12px;
+	outline-color:#e5e5e5;
+	color:#333;
+}
+.modal-content888  .modal-body888  .content888 .container888 .message888 .password888{
+	width: 355px;
+	height:55px ;
+	margin-top:12px;
+	outline-color:#e5e5e5;
+	color:#333;
+
+}
+.modal-content888  .modal-body888  .content888 .container888 .message888 .repassword888{
+	width: 355px;
+	height:55px ;
+	margin-top:12px;
+	outline-color:#e5e5e5;
+	color:#333;
+
+}
+.modal-content888  .modal-body888  .content888 .container888 .message888 .pin888{
+	width: 355px;
+	height:55px ;
+	margin-top:12px;
+	outline-color:#e5e5e5;
+	color:#333;
+}
+.modal-content888  .modal-body888  .content888 .container888 .fina888 .agree888{
+	display:block;
+	float:left;
+	color:#999;
+	font-size:12px;
+	font-family:yahei;
+	margin-top:29px;
+}
+.modal-content888  .modal-body888 .content888 .container888 .fina888 .pro888{
+	display:block;
+	float:left;
+	color:#333;
+	font-size:12px;
+	font-family:yahei;
+	margin-top:29px;
+	margin-left:6px;
+}
+.modal-content888 .modal-body888 .content888 .container888 .fina888 .btn888{
+	display:block;
+	text-decoration: none;
+	line-height:30px;
+	width:120px ;
+	height:40px ;
+	background-color: #50bbdb;
+	margin-top:17px;
+	float:right;
+	border:none;
+	outline:none;
+	color:#fff;
+}
+.modal-content888 .modal-body888 .content888 .container888 .line888 .line1888{
+	width: 134px;
+	height: 16px;
+	margin-top:49px;
+	border-top:1px solid #50bbdb;
+	float:left;
+}
+.modal-content888 .modal-body888 .content888 .container888 .line888 span{
+	display:block;
+	font-size:13px;
+	height:15px;
+	width:84px;
+	color:#999;
+	font-family:yahei;
+	float:left;
+	padding-left:3px;
+	margin-top:42px;
+}
+.modal-content888 .modal-body888 .content888 .container888 .line888 .line2888{
+	width: 134px;
+	height: 16px;
+	float:right;
+	border-top:1px solid #50bbdb;
+	margin-top:49px;
+}
+.modal-content888 .modal-body888 .content888 .footer888 .btn888{
+	display:block;
+	width:233px ;
+	height:44px ;
+	text-align:center;
+	line-height:32px;
+	background-color: #50bbdb;
+	margin-top:21px;
+	margin:0 auto;
+	border:none;
+	outline:none;
+	border-radius:8px;
+	color:#fff;
+	margin-left:59px;
+	font-size:18px;
+}

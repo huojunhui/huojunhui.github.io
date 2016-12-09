@@ -1,0 +1,431 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.clearFix:before,.clearFix:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+@font-face{
+  font-family:微软雅黑;
+  src:url(../fonts/Microsoft 微软雅黑.ttf);
+}
+.team3{
+	width: 100%;
+	height: 580px;
+	position: relative;
+}
+.team3 .bacImg{
+	width: 100%;
+	height: 580px;
+	position: relative;
+	display:block;
+}
+.team3 .top{
+	color:#fff;
+	font-size:0.3rem;
+	font-family:微软雅黑;
+	position:absolute;
+	top:63px;
+	/*left:38.00%;*/
+	margin:0 auto;
+	text-align: center;
+	width: 100%;
+
+}
+.team3 .down{
+	width: 63.50%;
+	height: 350px;
+	position: absolute;
+	top:160px;
+	left:19.0%;
+	/*background-color: red;*/
+	margin:0 auto;
+	
+
+}
+.team3 .down .pic1{
+	position: absolute;
+	top:0px;
+	left:5.41%;
+	display: block;
+	float: left;
+	width: 5.32%;
+	height: 53px;
+}
+.team3 .down .oneUp{
+	font-size: 24px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:85px;
+	left:2.45%;
+}
+.team3 .down .oneDown{
+	font-size: 16px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:124px;
+	left:0%;
+}
+
+
+
+
+.team3 .down .pic2{
+	position: absolute;
+	top:0px;
+	left:46.60%;
+	display: block;
+	float: left;
+	width: 5.13%;
+	height: 53px;
+}
+.team3 .down .twoUp{
+	font-size: 24px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:85px;
+	left:43.29%;
+}
+.team3 .down .twoDown{
+	font-size: 16px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:124px;
+	left:42.70%;
+
+}
+.team3 .down .pic3{
+	position: absolute;
+	top:0px;
+	left:86.04%;
+	display: block;
+	float: left;
+	width: 4.29%;
+	height: 50px;
+}
+.team3 .down .threeUp{
+	font-size: 24px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:85px;
+	left:80.78%;
+}
+
+.team3 .down .threeDown{
+	font-size: 16px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:124px;
+	left:77.38%;
+}
+
+
+.team3 .down .pic4{
+	position: absolute;
+	top:223px;
+	left:5%;
+	display: block;
+	float: left;
+	width: 4.93%;
+	height: 50px;
+}
+.team3 .down .fourUp{
+	font-size: 24px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:294px;
+	left:4.41%;
+}
+.team3 .down .fourDown{
+	font-size: 16px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:333px;
+
+
+}
+.team3 .down .pic5{
+	position: absolute;
+	top:223px;
+	left:46.8%;
+	display: block;
+	float: left;
+	width: 4.54%;
+	height: 51px;
+}
+.team3 .down .fiveUp{
+	font-size: 24px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:294px;
+	left:45.3%;
+}
+.team3 .down .fiveDown{
+	font-size: 16px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:333px;
+	left:43.80%;
+}
+.team3 .down .pic6{
+	position: absolute;
+	top:223px;
+	left:86.04%;
+	display: block;
+	float: left;
+	width: 5.03%;
+	height: 38px;
+}
+.team3 .down .sixUp{
+	font-size: 24px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:295px;
+	left:83.77%;
+}
+.team3 .down .sixDown{
+	font-size: 16px;
+	font-family:微软雅黑;
+	color:#fff;
+	position: absolute;
+	top:333px;
+	left:82.32%;
+}
+@media screen and (max-width:1080px){
+	.team3{
+		width: 100%;
+		height: 15.12rem;
+	}
+	.team3 .bacImg{
+		width: 100%;
+		height: 15.12rem;
+		position: relative;
+		
+	}
+
+	.team3 .top{
+		color:#fff;
+		font-size:0.6rem;
+		font-family:微软雅黑;
+		position: absolute;
+		top:0.77rem;
+	}
+	.team3 .down{
+		width: 9.5rem;
+		height: 11.03rem;
+		position: absolute;
+		top:2.53rem;
+		left:1rem;
+		
+	}
+	
+	.team3 .down .pic1{
+		position: absolute;
+		top:0px;
+		left:1.4rem;
+		width: 1.04rem;
+		height: 1.02rem;
+	
+	}
+
+	.team3 .down .oneUp{
+		font-size: 0.48rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:1.7rem;
+		left:0.98rem;
+		
+
+		
+	}
+
+	.team3 .down .oneDown{
+		font-size: 0.32rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:2.5rem;
+		left:0.53rem;
+	}	
+		
+	
+
+
+
+.team3 .down .pic2{
+		position: absolute;
+		top:0px;
+		left:6.5rem;
+		width: 1.02rem;
+		height: 0.99rem;
+
+	
+	}
+
+	.team3 .down .twoUp{
+		font-size: 0.48rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:1.7rem;
+		left:6.1rem;
+		
+		
+	}
+
+	.team3 .down .twoDown{
+		font-size: 0.32rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:2.5rem;
+		left:6rem;
+	}
+
+
+	.team3 .down .pic3{
+		position: absolute;
+		top:4.3rem;
+		left:1.4rem;
+		display:block;
+		width: 0.97rem;
+		height: 0.99rem; 
+	
+	}
+
+	.team3 .down .threeUp{
+		font-size: 0.48rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:5.76rem;
+		left:0.7rem;
+	}
+
+	.team3 .down .threeDown{
+		font-size: 0.32rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:6.5rem;
+		left:0rem;
+	}
+
+
+	.team3 .down .pic4{
+		position: absolute;
+		top:4.3rem;
+		left:6.5rem;
+		display:block;
+		width: 1.02rem;
+		height: 1.04rem; 
+	
+	}
+
+	.team3 .down .fourUp{
+		font-size: 0.48rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:5.8rem;
+		left:6.52rem;
+	}
+
+	.team3 .down .fourDown{
+		font-size: 0.32rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:6.56rem;
+		left:5.7rem;
+	}
+
+	.team3 .down .pic5{
+		position: absolute;
+		top:8.4rem;
+		left:1.45rem;
+		display:block; 
+		width: 0.97rem;
+		height: 1.02rem;
+	
+	}
+
+	.team3 .down .fiveUp{
+		font-size: 0.48rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:10rem;
+		left:1.22rem;
+	}
+
+	.team3 .down .fiveDown{
+		font-size: 0.32rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:10.67rem;
+		left:0.9rem;
+	}
+
+	.team3 .down .pic6{
+		position: absolute;
+		top:8.6rem;
+		left:6.51rem;
+		display:block;
+		width: 1.02rem;
+		height: 0.77rem;
+
+	
+	}
+
+	.team3 .down .sixUp{
+		font-size: 0.48rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:10rem;
+		left:6.08rem;
+	}
+
+	.team3 .down .sixDown{
+		font-size: 0.32rem;
+		font-family:微软雅黑;
+		color:#fff;
+		position: absolute;
+		top:10.67rem;
+		left:5.8rem;
+	}
+
+
+
+
+
+		
+	
+
+
+
+
+	
+	
+
+
+
+
+}

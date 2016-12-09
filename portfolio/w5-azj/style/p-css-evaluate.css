@@ -1,0 +1,135 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear:both;
+}
+@font-face{
+	font-family:yahei;
+	src:url(../fonts/Microsoft yahei.ttf);
+}
+
+.modal-content5 .modal-body5{
+	width: 100.2%;
+	height: 380px;	
+}
+.modal-content5 .modal-body5 .content5{
+    width: 92%;
+	height: 52.1%;
+	margin:0 auto;
+}
+.modal-content5 .modal-body5 .content5 .header5{
+	height: 8.9%;
+	width: 100%;
+	margin-left:10px;
+	margin:0 auto;
+}
+.modal-content5 .modal-body5 .header5 p{
+	display:block;
+	margin-left:21.5%;
+	padding:1.5%;
+	font-size:16px;
+	font-family:yahei;
+	color:#000;
+	font-weight:bold;
+	float:left;	
+}
+.modal-content5 .modal-body5 .header5 input{
+	float:right;
+	max-width: 20px;
+	max-height: 20px;
+	outline:none;
+}
+.modal-content5 .modal-body5 .header5 span{
+	display:block;
+	float:right;
+	margin-top:-30px;
+	font-size:12px;
+	font-family:yahei;
+	color:#414141;
+}
+.modal-content5 .modal-body5 .container55 .left5{
+	float：left;
+}
+.modal-content5 .modal-body5 .container55 .left5 textarea{
+    width: 300px;
+    height: 150px;
+    margin-left:-14px;
+    outline:none;
+    float:left;
+}
+.modal-content5 .modal-body5 .container55 .right5 label{
+	margin-left:5px;
+	font-size:14px;
+	color:#333;
+}
+.modal-content5 .modal-body5 .container55 .right5 input{
+	margin-left:4px;	
+}
+.modal-content5 .modal-body5 .container55 .right5 span{
+	color:#b3b3b3;
+	font-size:12px;
+}
+.modal-content5 .modal-body5 .container55 .right5 .star5 label{
+	margin-top:-3px;
+	float:left;
+}
+.modal-content5 .modal-body5 .container55 .right5 .xc5{
+	margin-top:1px;
+}
+.modal-content5 .modal-body5 .container55 .right5 .zs5{
+	margin-top:1px;
+}
+.modal-content5 .modal-body5 .container55 .right5 .lx5{
+	margin-top:1px;
+}
+.modal-content5 .modal-body5 .container55 .right5 .star5 ul{
+	margin-left:4px;
+
+}
+.modal-content5 .modal-body5 .container55 .right5 .star5 ul li{
+	list-style:none;
+	margin-left:3px;
+	margin-top:-5px;
+	float:left;
+}
+.modal-content5 .modal-body5 .footer5 .boxadd5{
+	width: 301px;
+    height: 40px;
+    border:1px solid #e4e4e4 ;
+    margin-left:-14px;
+}
+.modal-content5 .modal-body5 .footer5 .boxadd5 .btn5{
+    background-color: #e4e4e4;
+    height: 38px;
+    color:#333;
+    float:left;
+}
+   
+
+.modal-content5 .modal-body5 .footer5 .boxadd5 .pic55{
+	width: 40px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+    float:left;
+}
+.modal-content5 .modal-body5 .footer5 .boxadd5 span{
+	color:#666;
+	padding-top:8px;
+    display: block;
+	font-size:14px;
+	
+}
+.modal-content5 .modal-body5 .footer5 button{
+	background-color: #50bbdb;
+	width: 100px;
+	height: 38px;
+	color:#fff;
+	outline:none;
+	border:none;
+	margin:0 auto;
+	margin-left: 195px;
+    margin-top: 25px;
+}

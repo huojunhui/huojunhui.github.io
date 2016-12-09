@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*旅游线路样式*/
+#main{/**/}
+
+a{ text-decoration:none;}
+/*线路详情页行程日历*/
+.calendar{border: 1px solid #ccc;border-radius: 3px;margin: 0;overflow: hidden;width: 500px;}
+.calendar .outer{width: 500px;overflow: hidden;}
+.calendar table{background: #d8d8d8;border-collapse: separate;border-spacing: 3px;display: inline;float: left;margin-right: 10px;width: 500px;}
+.calendar .week th{background: #7f888f;color: #FFF;height: 26px;line-height: 26px;overflow: hidden;width: 65px;text-align: center;}
+.calendar .week th.weekEnd{background: #50bbdb;}
+.calendar .month th div{background: #FFF;border-bottom: 1px solid #D5D5D5;box-shadow: 0 1px 2px #DDD;color: #999;font: bold 16px/22px "Microsoft YaHei","Microsoft YaHei",Arial;height: 22px;margin-bottom: 6px;overflow: hidden;padding-bottom: 5px;}
+.calendar .month th .prevMonth,.calendar .month th .nextMonth{float: left;width: 65px;}
+.calendar .month th .dates{float: left;width: 358px;text-align: center;}
+.calendar .month th .dates em{font: bold 16px/22px ,Helvetica,sans-serif;}
+.calendar .month th a{background: url(../images/calendarbg.gif) no-repeat 0 0;display: inline-block;height: 22px;width: 65px;/*overflow: hidden;*/}
+.calendar .month th a.prev{background-position: 0 0;}
+.calendar .month th a.prev:hover{background-position: 0 -22px;}
+.calendar .month th a.prev0{background-position: 0 -44px;cursor: not-allowed;}
+.calendar .month th a.next{background-position: 0 -66px;}
+.calendar .month th a.next:hover{background-position: 0 -88px;}
+.calendar .month th a.next0{background-position: 0 -110px;cursor: not-allowed;}
+.calendar td{background: url(../images/calendarbg.gif) no-repeat right -136px;border-radius: 3px 3px 0 3px;height: 40px;line-height: 14px;width: 65px;text-align: center;vertical-align: middle;/*overflow: hidden;*/position: relative;}
+.calendar td.cur{background-position: right -269px;}
+.calendar td.hover{background-position: right -202px;cursor: pointer;}
+.calendar td em{font-family: Arial;font-size: 14px;}
+.calendar td em.money{color: #F60;font-size: 8px;font-family:"Microsoft YaHei";}
+.calendar .nl{ font-size:8px; color:#03F;font-family:"Microsoft YaHei";}

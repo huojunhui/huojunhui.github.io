@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.header{
+	border-bottom: 1px solid #cccccc;
+}
+.header-top{
+	height: 45px;
+	background-color: #244d5f;
+}
+.content-top{
+	width: 1003px;
+	margin:0 auto;
+}
+.pic01{
+	margin-top:12px;
+	float:left;
+	margin-left:2px;
+}
+.list01{
+	list-style:none;
+	margin-left:13px;
+}
+ .list01 li{
+	margin-top:12px;
+	margin-left:15px;
+	float:left;
+	color:#e2e7ea;
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+.pic02{
+	margin-left: 74px;
+	margin-top:11px;
+	float:left;
+}
+.p0{
+	margin-top:12px;
+	margin-left:12px;
+	float:left;
+	color:#e2e7ea;
+	font-size:16px;
+	font-family:"微软雅黑";
+} 
+.pic03{
+	margin-left: 493px;
+	margin-top:8px;
+	float:left;
+}
+.pic04{
+	margin-left:17px;
+	margin-top:10px;
+	float:left;
+}
+.p1{
+	float:left;
+	margin-top:13px;
+	margin-left:26px;
+	float:left;
+	color:#e2e7ea;
+	font-size:16px;
+	font-family:"微软雅黑";
+
+} 
+.p1 a{
+	text-decoration:none;
+	color:#e2e7ea;
+}
+.p2 a{
+	text-decoration:none;
+	color:#e2e7ea;
+}
+.border-dl{
+	float:left;
+	margin-top:12px;
+	margin-left:10px;
+	border-right:2px solid #e2e7ea;
+	height: 18px;
+}
+.p2{
+	margin-top:13px;
+	margin-left:10px;
+	float:left;
+	color:#e2e7ea;
+	font-size:16px;
+	font-family:"微软雅黑";
+} 
+
+.header-bottom{
+	height: 79px;
+}
+.content-bottom{
+	width: 1003px;
+	margin:0 auto;
+}
+.cb-l{
+	width: 396px;
+}
+.content-bottom img{
+	margin-top:8px;
+	margin-left:2px;
+	float:left;
+}
+.cb-r{
+	width: 830px;
+	height:79px;
+	float:left;
+}
+.list{
+	margin-left: 105px;
+}
+.list li{
+	display:block;
+	height:79px;
+	width: 80px;	
+	list-style:none;
+	color:#333;
+	float:left;
+	font-size: 18px;
+    line-height:80px;
+    text-align:center;
+
+}
+.list li a{
+	display: block;
+	width: 80px;
+	height: 79px;
+	color:#333333;
+	text-decoration: none;
+}
+.list .cb-active{
+	background-color: #50bbdb;
+	color:#ffffff;
+}
+/*头部*/
+
+
+
+
+/*尾部*/
+
+
+.footer{
+	clear:both;
+}
+.f-top{
+	height: 50px;
+	background-color: #444b55;
+}
+.ft-inner{
+	width: 1000px;
+	margin:0 auto;
+}
+.foot-list li{
+	list-style: none;
+	float: right;
+	line-height: 50px;
+	padding-left: 123px;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: "微软雅黑";
+
+}
+.f-bottom{
+	height: 40px;
+	background-color: #565d65;
+}
+.fb-inner{
+	width: 1000px;
+	margin:0 auto;
+}
+.banquan{
+	color: #ffffff;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	line-height: 40px;
+	float: left;
+}
+.banquan1{
+	padding-left: 295px;
+	padding-right: 34px;
+}

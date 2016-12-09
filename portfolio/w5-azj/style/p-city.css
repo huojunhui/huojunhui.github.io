@@ -1,0 +1,22 @@
+/*城市切换*/
+#city_change{
+	width: 250px;
+	height: 150px;
+	background-color: #123;
+	position: absolute;
+	top:45px;
+	left:250px;
+	display:none;
+	z-index:99;
+
+}
+#city_change ul span{
+	color:#fff;
+}
+#city_change ul li{
+	list-style:none;
+	cursor: pointer;
+}
+#city_change ul p{
+	float: left;
+}

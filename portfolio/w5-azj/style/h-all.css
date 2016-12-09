@@ -1,0 +1,27 @@
+*{
+	margin:0px;
+	padding:0px;
+} 
+@font-face{
+	font-family:yaHei;
+	src:url(../fonts/Microsoft yahei.ttf);
+}
+body{
+	font-family:yaHei;
+}
+.clear{
+	clear:both;
+}
+.container .content .mid .activity .imgBoxs{
+	width: 326px;
+	height: 223px;
+	overflow:hidden;
+}
+.container .content .mid .activity .imgBoxs .active{
+	display: block;
+	width: 376px;
+	height: 273px;
+	margin-left:-25px;
+	margin-top:-25px;
+}
+

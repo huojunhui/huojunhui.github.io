@@ -1,0 +1,131 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear:both;
+}
+@font-face{
+	font-family:yahei;
+	src:url(../fonts/Microsoft yahei.ttf);
+}
+
+.ymodal-content .ymodal-body{
+	width: 100.2%;
+	height: 380px;	
+}
+.ymodal-content .ymodal-body .ycontent{
+    width: 92%;
+	height: 52.1%;
+	margin:0 auto;
+}
+.ymodal-content .ymodal-body .ycontent .yheader{
+	height: 8.9%;
+	width: 100%;
+	margin-left:10px;
+	margin:0 auto;
+}
+.ymodal-content .ymodal-body .yheader p{
+	display:block;
+	margin-left:21.5%;
+	padding:1.5%;
+	font-size:16px;
+	font-family:yahei;
+	color:#000;
+	font-weight:bold;
+	float:left;	
+}
+.ymodal-content .ymodal-body .yheader input{
+	float:right;
+	max-width: 20px;
+	max-height: 20px;
+	outline:none;
+}
+.ymodal-content .ymodal-body .yheader span{
+	display:block;
+	float:right;
+	margin-top:-30px;
+	font-size:12px;
+	font-family:yahei;
+	color:#414141;
+}
+.ymodal-content .ymodal-body .ycontainer .yleft{
+	float：left;
+}
+.ymodal-content .ymodal-body .ycontainer .yleft textarea{
+    width: 300px;
+    height: 150px;
+    margin-left:-14px;
+    outline:none;
+    float:left;
+}
+.ymodal-content .ymodal-body .ycontainer .yright label{
+	margin-left:5px;
+	font-size:14px;
+	color:#333;
+}
+.ymodal-content .ymodal-body .ycontainer .yright input{
+	margin-left:4px;	
+}
+.ymodal-content .ymodal-body .ycontainer .yright span{
+	color:#b3b3b3;
+	font-size:12px;
+}
+.ymodal-content .ymodal-body .ycontainer .yright .ystar label{
+	margin-top:-8px;
+	float:left;
+}
+.ymodal-content .ymodal-body .ycontainer .yright .yxc{
+	margin-top:1px;
+}
+.ymodal-content .ymodal-body .ycontainer .yright .yzs{
+	margin-top:1px;
+}
+.ymodal-content .ymodal-body .ycontainer .yright .ylx{
+	margin-top:1px;
+}
+.ymodal-content .ymodal-body .ycontainer .yright .ystar ul{
+	margin-left:4px;
+}
+.ymodal-content y.modal-body .ycontainer .yright .ystar ul li{
+	list-style:none;
+	margin-left:3px;
+	margin-top:-9px;
+	float:left;
+}
+.ymodal-content .ymodal-body .yfooter .yboxadd{
+	width: 301px;
+    height: 40px;
+    border:1px solid #e4e4e4 ;
+}
+.ymodal-content .ymodal-body .yfooter .yboxadd .ybtn{
+    background-color: #e4e4e4;
+    height: 38px;
+    color:#333;
+    float:left;
+}
+
+.ymodal-content .ymodal-body .yfooter .yboxadd .y1pic{
+	width: 40px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+    float:left;
+}
+.ymodal-content .ymodal-body .yfooter .yboxadd span{
+	color:#666;
+	padding-top:8px;
+    display: block;
+	font-size:14px;
+}
+.ymodal-content .ymodal-body .yfooter button{
+	background-color: #50bbdb;
+	width: 100px;
+	height: 38px;
+	color:#fff;
+	outline:none;
+	border:none;
+	margin:0 auto;
+	margin-left: 195px;
+    margin-top: 25px;
+}

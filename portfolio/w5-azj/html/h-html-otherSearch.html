@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../style/X-header-footer.css">
+	<link rel="stylesheet" href="../style/p-css-bdyz.css">
+	<link rel="stylesheet" href="../style/p-city.css">
+	<link rel="stylesheet" href="../style/h-css-otherSearch.css">
+	<link rel="stylesheet" href="../style/h-all.css">
+</head>
+<body>
+	<div class="box">
+		
+<div class="header">
+			<div class="header-top">
+				<div class="content-top">
+					<a title="map" onclick="queryTab(this);" href="p-baidumap.html" mon="col=502&amp;pn=6"><img src="../images/p-image-bbyz/p01.jpg" class="pic01"></a>
+					<ul class="list01">
+						<a href="#"><li class="list1">北京</li></a>
+						<a href="#"><li id="list2">切换</li></a>
+						<div id="city_change">
+							<ul>
+								<span>热门城市：</span><br>
+								<li><p>北京</p></li>
+								<li><p>天津</p></li>		
+								<li><p>河北</p></li>
+								<li><p>河南</p></li>
+								<li><p>湖北</p></li>
+								<li><p>湖南</p></li>
+								<li><p>澳门</p></li>
+								<li><p>台湾</p></li>
+								<li><p>新疆</p></li>
+								<li><p>厦门</p></li>		
+								<li><p>深圳</p></li>
+								<li><p>广西</p></li>
+								<li><p>广东</p></li>
+								<li><p>香港</p></li>
+								<li><p>东北</p></li>
+							</ul>
+					    </div>
+					</ul>
+					<a href="http://www.izijia.cn/app_down/"><img src="../images/p-image-bbyz/p02.jpg" class="pic02"></a>
+					<a href="http://www.izijia.cn/app_down/"><p class="p0">下载手机APP</p></a>
+					<a target="_blank" href="http://www.paidai.com/user/oauth_qq.php"><img src="../images/p-image-bbyz/p03.jpg" class="pic03"></a>
+					<a href="http://service.weibo.com/share/share.php?url=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%ABurl%E5%9C%B0%E5%9D%80%230-tsina-1-66529-397232819ff9a47a7b7e80a40613cfe1&title=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%86%85%E5%AE%B9&appkey=1343713053&pic=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87&searchPic=true#_loginLayer_1470704113283"><img src="../images/p-image-bbyz/p04.jpg" class="pic04"></a>
+					<a href="h-page1.html"><p class="p1">登录</p></a>
+					<div class="border-dl"></div>
+					<a href="h-page2.html"><p class="p2">注册</p></a>
+				</div>				
+			</div>
+			<div class="header-bottom">
+				<div class="content-bottom">
+					<div class="cb-l">
+						<img src="../images/p-image-bbyz/p-logo.jpg" alt="">
+					</div>
+					<div class="cb-r">
+						<ul class="list">
+							<a href="h-page.html"><li>首页</li></a>
+							<a href="#"><li>目的地</li></a>
+							<a href="#"><li>线路</li></a>
+							<a href="P-html-bdyz.html"><li>订制</li></a>
+							<a href="h-territoryList.html"><li  class="cb-active">自驾团</li></a>
+							<a href="#"><li>摄影</li></a>
+							<a href="#"><li>互动</li></a>
+							<a href="#"><li>精选</li></a>
+							<a href="#"><li>预订</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="content">
+				<div class="top">
+					<div class="c-t-t">
+						<ul>
+							<li><a href="#">首页</a><span>></span></li>
+							<li><a href="#">自驾团</a><span>></span></li>
+							<li><a href="#">自驾团境内</a><span>></span></li>
+							<li><a href="#">温泉</a></li>
+						</ul>
+					</div>
+					<div class="c-t-c">
+						<div class="searchs">
+							<input class="txt" placeholder="温泉" type="text">
+							<a href="">
+								<img class="seekImg" src="../images/h-image-otherSearch/searchImg.jpg" alt="zzz">
+							</a>
+						</div>
+					</div>
+					<div class="c-t-b">
+						<ul>
+							<li class="l1">热门搜索：</li>
+							<li><a href="#">北京</a></li>
+							<li><a href="#">西安</a></li>
+							<li><a href="#">天津</a></li>
+							<li><a href="#">上海</a></li>
+							<li><a href="#">杭州</a></li>
+							<li><a href="#">青海</a></li>
+							<li><a href="#">西藏</a></li>
+							<li><a href="#">云南</a></li>
+						</ul>
+					</div>
+					<div class="threeRow">
+						<div class="m-t-t">
+							<div class="label">
+								<p>目&nbsp;的&nbsp;地</p>
+							</div>		
+							<ul>
+								<li><a class="all" href="">全部</a></li>
+								<li><a class="all-r1" href="">北京</a></li>
+								<li><a href="">昆明</a></li>
+								<li><a href="">丽江</a></li>
+								<li><a href="">天津</a></li>
+								<li><a href="">当地</a></li>
+								<li><a href="">成都</a></li>
+								<li><a href="">广州</a></li>
+								<li><a href="">郑州</a></li>
+								<li><a href="">长沙</a></li>
+								<li><a href="">呼和浩特</a></li>
+								<li><a href="">上海</a></li>
+								<li><a class="more" href="">更多</a></li>
+								<li><a class="more-r1" href="">></a></li>
+							</ul>    
+						</div>
+						<div class="m-t-t">
+							<div class="label">
+								<label for="">出发城市</label>
+							</div>
+							<ul>
+								<li><a class="all" href="">全部</a></li>
+								<li><a class="all-r1" href="">北京</a></li>
+								<li><a href="">昆明</a></li>
+								<li><a href="">丽江</a></li>
+								<li><a href="">天津</a></li>
+								<li><a href="">当地</a></li>
+								<li><a href="">成都</a></li>
+								<li><a href="">广州</a></li>
+								<li><a href="">郑州</a></li>
+								<li><a href="">长沙</a></li>
+								<li><a href="">呼和浩特</a></li>
+								<li><a href="">上海</a></li>
+								<li><a class="more" href="">更多</a></li>
+								<li><a class="more-r1" href="">></a></li>
+							</ul>    
+						</div>
+						<div class="m-t-c">
+							<div class="label">
+								<label for="">行程天数</label>
+							</div>
+							<ul>
+								<li><a class="all" href="">全部</a></li>
+								<li><a class="all-r1" href="">1-3天</a></li>
+								<li><a href="">3-7天</a></li>
+								<li><a href="">7-10天</a></li>
+								<li><a href="">10-15天</a></li>
+								<li><a href="">15天+</a></li>
+							</ul>  
+						</div>
+						<div class="m-t-b">
+							<div class="label">
+								<label for="">出行时间</label>
+							</div>
+							<ul>
+								<li><a class="all" href="">全部</a></li>
+								<li><a class="all-r1" href="">周末</a></li>
+								<li><a href="">元旦</a></li>
+								<li><a href="">春节</a></li>
+								<li><a href="">清明</a></li>
+								<li><a href="">五一</a></li>
+								<li><a href="">端午</a></li>
+								<li><a href="">中秋</a></li>
+								<li><a href="">国庆</a></li>
+								<li><a href="">一月</a></li>
+								<li><a href="">二月</a></li>
+								<li><a href="">三月</a></li>
+								<li><a href="">四月</a></li>
+								<li><a href="">五月</a></li>
+								<li><a href="">六月</a></li>
+								<li><a href="">七月</a></li>
+								<li><a class="more" href="">更多</a></li>
+								<li><a class="more-r1" href="">></a></li>
+							</ul> 
+						</div>
+					</div>
+				</div>
+				<div class="mid">
+					<div class="list">
+						<ul>
+							<li class="c1">综合排序</li>
+							<li class="c2">
+								<select name="" id="">
+									<option value="">出发时间</option>
+									<option value="">2016/08/04</option>
+									<option value="">2016/08/07</option>
+									<option value="">2016/08/09</option>
+								</select>
+							</li>
+							<li class="c3">
+								<select name="" id="">
+									<option value="">价格</option>
+									<option value="">50-100元</option>
+									<option value="">100-200元</option>
+									<option value="">200-300元</option>
+									<option value="">300-400元</option>
+									<option value="">500元以上</option>
+								</select>
+							</li>
+							<li class="c4">
+								<select name="" id="">
+									<option value="">天数</option>
+									<option value="">03天</option>
+									<option value="">07天</option>
+									<option value="">12天</option>
+								</select>
+							</li>
+							<li class="c5">
+								<div class="left11">
+									<span>共122个</span>
+								</div>
+								<div class="center11">
+									<span>1/4</span>
+								</div>
+								<div class="right11">
+									<div class="boxL">
+										<img src="../images/h-image-otherSearch/boxL.jpg" alt="zzz">
+									</div>
+									<div class="boxR">
+										<img src="../images/h-image-otherSearch/boxR.jpg" alt="zzz">
+									</div>
+									<div class="clear"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="activity">
+						<div class="actGroup1">
+							<div class="act act1">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img.jpg" alt="zzz">
+									</div>
+								</a>
+								<div class="intro">
+									<p>彩云之南 边关秘境 发现之旅</p>
+								</div>
+
+								<div class="money">
+									<div class="money1">
+										<p>11800<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-11-03<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>25天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>南京—重庆—普者黑—元阳—泸沽湖</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>不一样的云南发现之旅</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+
+
+							
+							<div class="act act2">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (1).jpg" alt="zzz">
+									</div>
+								</a>
+								<div class="intro">
+									<p>海天佛国 普陀山祈福之旅</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>1280<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-11-01<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>3天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>南京—朱家尖—普陀山—宁波</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>海天佛国，南海圣境</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+
+
+
+							<div class="act act3">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (2).jpg" alt="zzz">
+									</div>
+								</a>
+								<div class="intro">
+									<p>玩转广西自驾12日游</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>4680<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-10-12<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>12天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>南京—桂林—凭祥—北海—阳朔</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>尽情领略广西风光，深入体验中越边关风采。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<div class="actGroup2">
+							<div class="act act1">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (3).jpg" alt="zzz">
+								<div class="intro">
+									</div>
+								</a>
+									<p>南京落地自驾行摄之旅</p>
+								</div>
+
+								<div class="money">
+									<div class="money1">
+										<p>4580<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-10-07<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>7天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>南京—建水—元阳·—元江—玉溪—东川</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>壮美东川，光影元阳</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+
+
+							
+							<div class="act act2">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (4).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>黔东南深度名俗体验之旅</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>4580<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-09-21<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>12天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>南京—西江—黄果树—荔波—桂林</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>返璞归真，回归自然。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+
+
+
+							<div class="act act3">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (5).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>冰雪圣地呼伦贝尔 冬季那达慕自驾</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>3880<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-08-30<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>7天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>呼和诺尔—冷极村—敖鲁古雅冰雪</p>
+									</a>	
+								</div>
+								<div class="randDis">
+									<p>冰雪盛宴，冬季那达慕</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+						</div>
+
+						<div class="actGroup3">
+							<div class="act act1">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (6).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>食在广东 粤菜美食6日自驾</p>
+								</div>
+
+								<div class="money">
+									<div class="money1">
+										<p>3680<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-07-29<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>6天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>南京—开平—番禺—深圳</p>
+									</a>
+								</div>
+								<div class="randDis">
+									<p>领略岭南风光，品味地道美食</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+
+
+							
+							<div class="act act2">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (7).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>滇西北深秋寻美行摄之旅</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>3580<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-07-21<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>8天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>昆明—丽江—香格里拉—大理</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>最经典滇西北行程，体验梦中的香格里拉。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+
+
+
+							<div class="act act3">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (8).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>领略滇西风土人情自驾7日游</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>3580<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-06-16<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>8天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>普洱—望天树—傣族园—抚仙湖</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>大理双廊洱海、腾冲银杏</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+						</div>
+						<div class="actGroup4">
+							<div class="act act1">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (9).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>冬韵多彩九寨沟3日自驾</p>
+								</div>
+
+								<div class="money">
+									<div class="money1">
+										<p>1880<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-05-21<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>5天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>广元—文县—九寨沟—都江堰</p>
+									</a>	
+								</div>
+								<div class="randDis">
+									<p>走进童话冰雪世界</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+
+
+							
+							<div class="act act2">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (10).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>长白山雪乡冰雪温泉9日自驾</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>4980<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-04-21<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>9天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>重庆—长白山—敦化—雪乡—哈尔滨</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>梦幻雪乡，北国童话。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>		
+								</div>
+							</div>
+
+
+
+							<div class="act act3">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (11).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>寻梦琅琊 探秘琅琊台4日自驾</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>1580<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-04-16<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>4天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>台儿庄—琅琊台—东营—北京</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>寻梦琅琊，探秘琅琊台。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+						</div>
+
+						<div class="actGroup5">
+							<div class="act act1">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (12).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>澳洲大洋路精彩自驾之旅11日</p>
+								</div>
+
+								<div class="money">
+									<div class="money1">
+										<p>17800<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-04-02<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>11天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>墨尔本—大洋路—堪培拉—悉尼</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>大洋路深度探索野性澳洲风情。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+
+
+							
+							<div class="act act2">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (13).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>新西兰南北双岛14日奇幻自驾</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>19800<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-03-02<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>14天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>奥克兰—皇后镇—蒂阿瑙—基督城</p>
+									</a>
+								</div>
+								<div class="randDis">
+									<p>长白云之乡、地球上最后一片净土。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+
+
+
+							<div class="act act3">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (14).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>柬埔寨落地9日自驾之旅</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>6980<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-02-30<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>9天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>金边—西哈努克港—暹粒</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>柬埔寨金边暹粒西港自驾之旅。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+						</div>
+
+						<div class="actGroup6">
+							<div class="act act1">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (15).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>加州一号公路＋夏威夷浪漫自驾之旅</p>
+								</div>
+
+								<div class="money">
+									<div class="money1">
+										<p>18800<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-02-11出发<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>12天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>旧金山—文图拉—洛杉矶—檀香山</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>加州一号公路＋夏威夷欧胡岛大环岛</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+
+
+							
+							<div class="act act2">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (16).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>澳洲莫宁顿半岛及大洋路自驾之旅</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>23980<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2016-01-30<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>10天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>墨尔本—莫宁顿半岛—华南府</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>饱览大自然美景，感受澳洲人的活力和闲适。</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+
+
+
+							<div class="act act3">
+								<a href="X-Detail-Pages.html">
+									<div class="imgBoxs">
+										<img src="../images/h-image-otherSearch/img (17).jpg" alt="zzz">
+									</div>
+								</a>
+								
+								<div class="intro">
+									<p>越南下龙湾吉婆岛7日自驾</p>
+								</div>
+								<div class="money">
+									<div class="money1">
+										<p>2580<span><sub>起</sub></span></p>
+									</div>
+									<div class="date">
+										<p>2015-12-07<span>出发</span></p>
+									</div>
+									<div class="day">
+										<p>7天</p>
+									</div>
+								</div>
+								<div class="rand">
+									<a href="X-Detail-Pages.html">
+										<p>北京—南宁—下龙湾—吉婆岛—河内</p>
+									</a>
+									
+								</div>
+								<div class="randDis">
+									<p>探访世界自然遗产之一海上桂林下龙湾</p>
+								</div>
+								<div class="person">
+									<div class="personImg">
+										<img src="../images/h-image-otherSearch/person.jpg" alt="zzz">
+									</div>
+									<div class="personDis">
+										<a href="h-html-list.html">
+											<p>中国自驾游联盟南京站</p>
+										</a>
+									</div>
+									<div class="eye">
+										<img src="../images/h-image-otherSearch/eye.jpg" alt="zzz">
+										<p>36</p>
+									</div>
+									<div class="hand">
+										<img src="../images/h-page/hand.jpg" alt="zzz">
+										<p>0</p>
+									</div>			
+								</div>
+							</div>
+						</div>
+						<div class="list4">
+								<ul>
+									<li class="lll1"><a class="gray" href=""><<</a></li>
+									<li><a class="gray" href=""><</a></li>
+									<li><a href="">1</a></li>
+									<li><a href="">2</a></li>
+									<li><a href="">3</a></li>
+									<li><a href="">4</a></li>
+									<li><a class="gray" href="">></a></li>
+									<li><a class="gray" href="">>></a></li>
+								</ul>
+							</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+	<div class="footer">
+		<div class="f-top">
+			<div class="ft-inner">
+				<ul class="foot-list">
+					<li>人民交通出版社</li>
+					<li>爱自驾</li>
+					<li>联系我们</li>
+					<li>友情链接</li>
+					<li>爱自驾品牌店</li>
+				</ul>
+			</div>
+		</div>
+		<div class="f-bottom">
+			<div class="fb-inner">
+				<p class="banquan banquan1">人民交通出版社股份有限公司</p> 
+				<p class="banquan">京ICP备15018898号-1</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="../script/jquery.js"></script>
+	<script src="../script/otherSearch.js"></script>	
+	<script src="../script/header.js"></script>
+	<script src="../script/h-all.js"></script>
+</body>
+</html>

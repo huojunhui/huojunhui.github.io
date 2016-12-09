@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0;
+	}
+body{
+	text-align:center;
+	background:#fff;
+	}
+a,img{border:none;}
+/*头部*/
+a{
+	color:#666;
+	text-decoration:none;
+}
+ul, li {
+	list-style-type:none;
+}
+.clear{
+	clear:both;
+}
+/****************************以上为公共样式******************************************/
+.boxs{
+	width:980px;
+}
+.header{
+	width:980px;
+	height:90px;
+	
+}
+.header .logo{
+	float:left;
+	height:90px;
+}
+.header .menu{
+	float:right;
+	height:90px;
+}
+.header .menu p{
+	margin-top:10px;
+	
+}
+.header .menu .menu_a{
+	padding-top:40px;
+	text-align:right;
+}
+.header .menu .menu_a .serr{
+	height:13px;
+	float:right;	
+	border:1px #ccc solid;	
+}
+.header .menu .menu_a  .butt{
+	height:17px;
+	float:right;
+	width:49px;
+	background:url(../img/z_search.gif) no-repeat;
+	border:hidden;
+	margin-left:5px;
+}
+/********************************header结束*****************************************/
+#menu {
+	margin-top:10px;
+	display:block;
+	width:980px;
+	height:33px;
+	margin-bottom:24px;
+}
+#nav {
+	display:block;
+}
+#nav .mainlevel{
+	float:left;
+	background:url(../img/z1.jpg) repeat-x;
+	text-align:center;
+	display:block;
+	position:relative;
+}
+#nav .mainlevel a {
+	color:#fff;
+	text-decoration:none;
+	line-height:33px;
+	height:33px;
+	font-size:14px;
+	text-align:center;
+	padding:0 53.5px;
+	display:block;
+	_width:48px;
+}
+#nav .mainlevel .a1:hover {
+	text-decoration:none;
+	background:url(../img/z2.jpg) bottom  no-repeat;
+}
+#nav .mainlevel ul {
+	position:absolute;
+	display:none;
+	width:980px;
+	*width:2000px;/*IE is great need, width>=li.length*/
+	overflow:hidden;
+	
+}
+
+#nav .mainlevel li {
+	float:left;
+	background:#666;
+	width:100px;
+	height:24px;	
+	
+}
+#nav .mainlevel li a {
+	padding:0 12px;
+	line-height:24px;
+	height:24px;
+	display:block;
+	font-size:12px;
+	_padding-bottom:6px;/*IE6 only*/
+}
+
+/********************nav结束********************************/
+.banner{
+	height:1000px;
+}
+
+/*头部*/
+.mnbanner{
+	width:980px;
+	height:124px;
+	margin-top:40px;
+	}
+/*banner is over*/
+/*middle is start*/
+.tab_box {
+	width:980px;
+	height:480px;
+	margin-top:10px;
+	border-bottom:#ccc solid 1px;
+	}
+.lyz_tab_left {
+	width: 180px;
+	height:480px;
+	float:left;
+	
+}
+.pro_con111{
+	float:left;
+	width: 170px;
+	height:249px;
+	background:url(../img/l2.jpg) no-repeat;	
+	margin-left:8px;
+}
+.pro_con111 ul {
+	width:100px;
+	height:190px;
+	list-style-type: none;
+	float:left;
+	text-align:left;
+	margin-top:63px;
+	
+}
+.pro_con111 ul li {
+	width:100px;
+	height:30px;
+	font-size: 14px;		
+	color:#747474;	
+	text-align:left;
+	margin-left:60px;
+}
+.pro_con111 ul li a{
+	
+	font-size: 14px;		
+	
+	color:#747474;	
+	text-align:left;
+	text-decoration:none;
+	}
+.pro_con111 ul li a:hover{
+	font-size: 14px;		
+	color:#f00;	
+	text-align:left;
+	text-decoration:none;	
+	}
+.qtableft{
+	width: 167px;
+	height:160px;
+	float:left;
+	margin-left:10px;
+	margin-top:20px;
+	}
+.lyz_tab_right {
+	width:770px;
+	height:480px;
+	float:right;
+	margin-right:10px;	
+}
+.qtabright1{
+	width:770px;
+	height:271px;
+	background:url(../img/l6.jpg);
+	float:left;
+	}
+.qtabright1 .qtabright11{
+	width:316px;
+	height:209px;
+	float:left;
+	background:#fff;
+	border:1px solid #999;
+	margin-top:50px;
+	margin-left:20px;
+	}
+.qtabright1 .qtabright11 img{
+	margin-top:5px;
+	}
+.qtabright1 .qtabright12{
+	width:400px;
+	height:271px;
+	float:right;
+	}
+.qtabright1 .qtabright12 .qtabright121{
+	width:200px; 
+	height:271px;
+	float:left;
+	}
+.qtabright1 .qtabright12 .qtabright121 ul{
+	margin-top:50px;
+	list-style-type:none;
+	text-align:left;
+	}
+.qtabright1 .qtabright12 .qtabright121 ul li{
+	line-height:25px;
+	}
+.qtabright1 .qtabright12 .qtabright121 ul li a{
+	font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}
+.qtabright1 .qtabright12 .qtabright121 ul li a:hover{
+	font-size:12px;
+	color:#00F;
+	text-decoration:none;
+	}
+.qtabright1 .qtabright12 .qtabright122{
+	width:200px; 
+	height:271px;
+	float:right;
+	}
+.qtabright1 .qtabright12 .qtabright122 ul{
+	margin-top:50px;
+	list-style-type:none;
+	text-align:left;
+	}
+.qtabright1 .qtabright12 .qtabright122 ul li{
+	line-height:25px;
+	}
+.qtabright1 .qtabright12 .qtabright122 ul li a{
+	font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}
+.qtabright1 .qtabright12 .qtabright122 ul li a:hover{
+	font-size:12px;
+	color:#00F;
+	text-decoration:none;
+	}
+.qtabright2{
+	width:770px;
+	height:167px;
+	float:left;
+	margin-top:10px;
+	}
+.qtabright2 .qtabright21{
+	width:379px;
+	height:167px;
+	background:url(../img/l7.jpg) no-repeat;
+	float:left;
+	}
+.qtabright2 .qtabright21 ul{
+	list-style-type:none;
+	text-align:left;
+	margin-top:40px;
+	margin-left:10px;
+	}
+.qtabright2 .qtabright21 ul li{
+	line-height:20px;
+	}
+.qtabright2 .qtabright21 ul li a{
+	font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}
+.qtabright2 .qtabright21 ul li a:hover{
+	font-size:12px;
+	color:#00F;
+	text-decoration:none;
+	}
+.qtabright2 .qtabright22{
+	width:379px;
+	height:167px;
+	background:url(../img/l8.jpg) no-repeat;
+	float:right;
+	}
+.qtabright2 .qtabright22 ul{
+	list-style-type:none;
+	text-align:left;
+	margin-top:40px;
+	margin-left:10px;
+	}
+.qtabright2 .qtabright22 ul li{
+	line-height:20px;
+	}
+.qtabright2 .qtabright22 ul li a{
+	font-size:12px;
+	color:#999;
+	text-decoration:none;
+	}
+.qtabright2 .qtabright22 ul li a:hover{
+	font-size:12px;
+	color:#00F;
+	text-decoration:none;
+	}
+/*middle is over*/
+.qybottom{
+	width:980px;
+	height:140px;
+	margin-top:4px;
+	}
+.qybottom .qybottom1{
+	width:980px;
+	height:20px;
+	float:left;
+	}
+.qybottom .qybottom1 ul{
+	list-style-type:none;
+	float:rigth;
+	margin-left:790px;
+	}
+.qybottom .qybottom1 ul li{
+	float:left;
+	color:#333;
+	font-size:12px;
+	margin-left:5px;
+	}
+.qybottom .qybottom1 ul li a{
+	color:#333;
+	text-decoration:none;
+	font-size:12px;
+	}
+.qybottom .qybottom1 ul li a:hover{
+	color:#333;
+	text-decoration:none;
+	font-size:12px;
+	}
+.qybottom .qybottom1 ul li a span{
+	color:#999;
+	text-decoration:none;
+	font-size:12px;
+	}
+.qybottom .qybottom1 ul li a:hover span{
+	color:#999;
+	text-decoration:none;
+	font-size:12px;
+	}
+.qybottom .qybottom2{
+	width:980px;
+	height:110px;
+	float:left;
+	}
+.qybottom .qybottom2 ul{
+	list-style-type:none;
+	}
+.qybottom .qybottom2 ul li{
+	color:#333;
+	font-size:12px;
+	margin-left:5px;
+	line-height:30px;
+	}

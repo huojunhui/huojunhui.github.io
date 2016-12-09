@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0 auto;
+	padding:0px;
+}
+body{
+	margin:0px;
+	text-align:center;
+	font-size:12px;
+	color:#666;
+}
+img{
+	border:none;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+ul, li {
+	list-style-type:none;
+}
+.clear{
+	clear:both;
+}
+/****************************以上为公共样式******************************************/
+.boxs{
+	width:980px;
+}
+.header{
+	width:980px;
+	height:90px;
+	
+}
+.header .logo{
+	float:left;
+	height:90px;
+}
+.header .menu{
+	float:right;
+	height:90px;
+}
+.header .menu p{
+	margin-top:10px;
+	
+}
+.header .menu .menu_a{
+	padding-top:40px;
+	text-align:right;
+}
+.header .menu .menu_a .serr{
+	height:13px;
+	float:right;	
+	border:1px #ccc solid;	
+}
+.header .menu .menu_a  .butt{
+	height:17px;
+	float:right;
+	width:49px;
+	background:url(../img/z_search.gif) no-repeat;
+	border:hidden;
+	margin-left:5px;
+}
+/********************************header结束*****************************************/
+#menu {
+	margin-top:10px;
+	display:block;
+	width:980px;
+	height:33px;
+	margin-bottom:24px;
+}
+#nav {
+	display:block;
+}
+#nav .mainlevel{
+	float:left;
+	background:url(../img/z1.jpg) repeat-x;
+	text-align:center;
+	display:block;
+	position:relative;
+}
+#nav .mainlevel a {
+	color:#fff;
+	text-decoration:none;
+	line-height:33px;
+	height:33px;
+	font-size:14px;
+	text-align:center;
+	padding:0 53.5px;
+	display:block;
+	_width:48px;
+}
+#nav .mainlevel .a1:hover {
+	text-decoration:none;
+	background:url(../img/z2.jpg) bottom  no-repeat;
+}
+#nav .mainlevel ul {
+	position:absolute;
+	display:none;
+	width:980px;
+	*width:2000px;/*IE is great need, width>=li.length*/
+	overflow:hidden;
+	
+}
+
+#nav .mainlevel li {
+	float:left;
+	background:#666;
+	width:100px;
+	height:24px;	
+	
+}
+#nav .mainlevel li a {
+	padding:0 12px;
+	line-height:24px;
+	height:24px;
+	display:block;
+	font-size:12px;
+	_padding-bottom:6px;/*IE6 only*/
+}
+
+/********************nav结束********************************/
+.fla{
+	width:980px;
+	height:125px;
+}
+.main{
+	width:980px;
+	height:485px;
+	margin-top:10px;
+	position:relative;
+}
+.main-left{
+	width:170px;
+	height:485px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.main-left-top{
+	width:170px;
+	height:187px;
+	background:url(../img/f2.jpg) no-repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.main-left-top ul{
+	list-style:none;
+	margin-top:60px;
+}
+.main-left-top ul li{
+	width:150px;
+	line-height:25px;
+	border-bottom:1px solid #ccc;
+}
+.main-left-center{
+	width:170px;
+	height:30px;
+}
+.main-left-bottom{
+	width:170px;
+	height:268px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.main-right{
+	width:810px;
+	height:485px;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.main-right-top{
+	width:810px;
+	height:309px;
+}
+.main-right-bottom .news{
+	float:left;
+	width:253px;
+	height:167px;
+	background:url(../img/f5.jpg);
+	margin-left:15px;
+	margin-top:10px;
+}
+.main-right-bottom .news .span1{
+	float:left;
+	line-height:30px;
+	margin-left:10px;
+	font-size:14px;
+}
+.main-right-bottom ul{
+	list-style:none;
+	text-align:left;
+	margin-left:20px;
+}
+.main-right-bottom ul li{
+	line-height:20px;
+}
+.main-right-bottom .news .span2{
+	float:right;
+	margin-top:5px;
+	margin-right:10px;
+}
+.footer{
+	width:980px;
+	height:150px;
+	border-top:1px #ccc solid;
+	margin-top:20px;
+}
+.footer .foo1{
+	text-align:right;
+	margin-right:8px;
+	margin-top:5px;
+}
+.footer p{
+	margin-top:20px;
+	color:#333;
+	line-height:25px;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/page-header.css">
+</head>
+<body>
+    <header>           
+        <div class="big-navigation-bar">       
+            <div class="navigation-bar">
+                <img src="../images/logo1.jpg" class="logoImg">
+                <div class="navigation-bar-title">
+                    <ul id="nav">
+                        <li class="logodirect1">
+                            <a href="" >免费代理</a>
+                            <ul class="inner-list1">
+                                <li>免费代理一</li>
+                                <li>免费代理二</li>
+                            </ul>
+                        </li>
+                        <li class="logodirect2">
+                            <a href="">购买代理</a>
+                            <ul class="inner-list2">
+                                <li>免费代理一</li>
+                                <li>免费代理二</li>
+                            </ul>
+                        </li>
+                        <li class="logodirect3">
+                            <a href="">开放代理</a>
+                            <ul class="inner-list3">
+                                <li>免费代理一</li>
+                                <li>免费代理二</li>
+                            </ul>
+                        </li>
+                        <li class="logodirect4">
+                            <a href="">秘密代理</a>
+                            <ul class="inner-list4">
+                                <li>免费代理一</li>
+                                <li>免费代理二</li>
+                            </ul>
+                        </li>
+                        <li class="logodirect5">
+                            <a href="">独享代理</a>
+                            <ul class="inner-list5">
+                                <li>免费代理一</li>
+                                <li>免费代理二</li>
+                            </ul>
+                        </li>
+                        <li class="logodirect6">
+                            <a href="">API接口</a>
+                            <ul class="inner-list6">
+                                <li>免费代理一</li>
+                                <li>免费代理二</li>
+                            </ul>
+                        </li>
+                        <li class="logodirect7">
+                            <a href="">帮助中心</a>
+                            <ul class="inner-list7">
+                                <li>免费代理一</li>
+                                <li>免费代理二</li>
+                            </ul>
+                        </li>     
+                    </ul>
+                    <div class="logodirect8">     
+                            
+                                <ul class="logodirect8-ul">
+                                    <li class="landing">注册</li>
+                                    <li class="register">登录</li>
+                                </ul>
+                                <div class="btn8">会员中心</div>
+                    </div>  
+                
+                </div>
+            </div>   
+        </div>
+        <!-- 手机端显示开始 -->
+        <div class="mobile">
+        <img src="../images/pc-home-page1/demo21.png" class="mobile-pic">
+        <ul class="mobile-list" >
+            <li class="mobile-list1"></li>
+            <li class="mobile-list2"></li>
+            <li class="mobile-list3"></li>
+        </ul>
+        </div>
+        <!-- 模态框 -->
+        <div class="model">
+            <div class="layout close"></div>
+            <div class="content">
+            <div class="title">
+                <img src="../images/mobile-log.jpg" class="mobile-log">
+                <img src="../images/asterisk.jpg" class="asterisk">
+            </div>
+            <ul class="model-nav">
+                <li>
+                    <span>免费代理</span>
+                    <img src="../images/mobile-pulldown.jpg" class="mobile-pulldown">
+                </li>
+                <ul class="model-nav-list1 ">
+                        <li>标题一</li>
+                        <li>标题二</li>
+                </ul>
+                <li>
+                    <span>购买代理</span>
+                    <img src="../images/mobile-pulldown.jpg" class="mobile-pulldown">
+                </li>
+                <ul class="model-nav-list1">
+                        <li>标题一</li>
+                        <li>标题二</li>
+                </ul>
+                <li>
+                    <span>开放代理</span>
+                    <img src="../images/mobile-pulldown.jpg" class="mobile-pulldown">
+                </li>
+                <ul class="model-nav-list1">
+                        <li>标题一</li>
+                        <li>标题二</li>
+                </ul>
+                <li>
+                    <span>私密代理</span>
+                    <img src="../images/mobile-pulldown.jpg" class="mobile-pulldown">
+                </li>
+                <ul class="model-nav-list1">
+                        <li>标题一</li>
+                        <li>标题二</li>
+                </ul>
+                <li>
+                    <span>独享代理</span>
+                    <img src="../images/mobile-pulldown.jpg" class="mobile-pulldown">
+                </li>
+                <ul class="model-nav-list1">
+                        <li>标题一</li>
+                        <li>标题二</li>
+                </ul>
+                <li>
+                    <span>API接口</span>
+                    <img src="../images/mobile-pulldown.jpg" class="mobile-pulldown">
+                </li>
+                <ul class="model-nav-list1">
+                        <li>标题一</li>
+                        <li>标题二</li>
+                </ul>
+                <li>
+                    <span>帮助中心</span>
+                    <img src="../images/mobile-pulldown.jpg" class="mobile-pulldown">
+                </li>
+                <ul class="model-nav-list1">
+                        <li>标题一</li>
+                        <li>标题二</li>
+                </ul>
+            </ul>
+            <div class="member">会员中心</div>
+            <div class="welcome">晚上好,qhenry2@qq.com</div>
+            <div class="model-footer">
+                <img src="../images/contact3.jpg">
+                <span>400-007-8367</span>
+            </div>
+            </div>
+        </div>
+    </header>
+ <script src="../script/jquery.js"></script>
+ <script src="../script/fontsizeset.js"></script>
+ <script >
+    //下拉菜单
+    $("#nav>li").mouseenter(function(){
+            $(this).find("ul").stop().slideDown(300);
+        }).mouseleave(function(){
+            $(this).find("ul").stop().slideUp(300);
+        })
+    // 模态框
+        $(".mobile-list").click(function(){
+            $(".model").fadeIn(300);
+        })
+        $(".asterisk").click(function(){
+            $(".model").fadeOut(300);
+        })
+ </script>   
+</body>
+</html>

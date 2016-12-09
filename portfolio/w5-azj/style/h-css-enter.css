@@ -1,0 +1,131 @@
+*{
+	margin:0px;
+	padding:0px;
+} 
+@font-face{
+	font-family:yaHei;
+	src:url(../fonts/Microsoft yahei.ttf);
+}
+body{
+	font-family:yaHei;
+}
+.clear{
+	clear:both;
+}
+.modal-contents{
+	width: 500px;
+	height: 522px;
+}
+.modal-contents .modal-bodys{
+	font-family:yaHei;
+	width: 414px;
+	height: 508px;
+	margin-left:73px;
+	padding-left:0px;
+	padding-top:0px;
+}
+.modal-contents .modal-bodys .imgss{
+	width: 414px;
+	height: 116px;
+}
+.modal-contents .modal-bodys .imgss .logoImg1{
+	display:block;
+	width: 171px;
+	height: 71px;
+	margin-left:98px;
+	float:left;
+	margin-top:13px;
+}
+.modal-contents .modal-bodys .imgss .quitImg1{
+	margin-top:13px;
+}
+
+.modal-contents .modal-bodys .centers{
+	height: 213px;
+	width: 414px;
+}
+.modal-contents .modal-bodys .centers .texts{
+	height: 53px;
+	width: 353px;
+	color:#333333;
+	border:1px solid #e5e5e5;
+	padding-left:20px;
+}
+.modal-contents .modal-bodys .centers .passWord{
+	margin-top:16px;
+}
+.modal-contents .modal-bodys .loadBtn{
+	height: 48px;
+	width: 351px;
+	border:1px solid #50bbdb;
+	border-radius:4px;
+	background-color:#50bbdb;
+	color:white;
+	margin-top:15px;
+	font-size:24px;
+}
+.modal-contents .modal-bodys .losts{
+	height: 54px;
+	width: 414px;
+}
+.modal-contents .modal-bodys .losts ul{
+	list-style:none;
+	height: 22px;
+	list-style:none;
+}
+.modal-contents .modal-bodys .losts ul li{
+	float:left;
+}
+.modal-contents .modal-bodys .losts ul .lostPass{
+	width: 186px;
+	height: 22px;
+}
+.modal-contents .modal-bodys .losts ul .freeLogin{
+	width: 170px;
+	height: 22px;
+}
+.modal-contents .modal-bodys .losts ul .freeLogin{
+	width: 170px;
+}
+.modal-contents .modal-bodys .losts ul .freeLogin label{
+	display:block;
+	color:#333333;
+	float:left;
+}
+.modal-contents .modal-bodys .losts ul .freeLogin a{
+	display:block;
+	float:left;
+	text-decoration: none;
+}
+.modal-contents .modal-bodys .otherss{
+	height: 43px;
+	width: 414px;
+	padding-left:2px;
+}
+.modal-contents .modal-bodys .otherss div{
+	width: 134px;
+	height: 16px;
+	margin-top:6px;
+	border-top:1px solid #50bbdb;
+	float:left;
+}
+.modal-contents .modal-bodys .otherss .otherLoads{
+	display:block;
+	height: 16px;
+	width:84px;
+	color:#999999;
+	font-size:13px;
+	padding-left:2px;
+	float:left;
+}
+.modal-contents .modal-bodys .dirLoadBtn{
+	height: 42px;
+	width: 231px;
+	border:1px solid #50bbdb;
+	border-radius:4px;
+	background-color:#50bbdb;
+	color:white;
+	font-size:18px;
+	margin-left:61px;
+}
+

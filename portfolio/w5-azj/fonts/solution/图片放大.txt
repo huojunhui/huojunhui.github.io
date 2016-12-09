@@ -1,0 +1,31 @@
+
+<div class="imgBoxs">
+	<img src="../images/h-image-searchCity/img.jpg" alt="zzz">
+</div>
+
+
+
+
+.container .content .mid .activity .imgBoxs{
+	width: 326px;
+	height: 223px;
+	overflow:hidden;
+}
+
+.container .content .mid .activity .active{
+	display: block;
+	width: 376px;
+	height: 273px;
+	margin-left:-25px;
+	margin-top:-25px;
+}
+
+
+
+
+$(".container .content .mid .activity img").mouseenter(function(){
+	$(this).addClass("active");
+})
+$(".container .content .mid .activity img").mouseleave(function(){
+	$(this).removeClass("active");
+})
